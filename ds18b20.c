@@ -18,6 +18,7 @@
 #include "esp32/rom/ets_sys.h"
 #include "ds18b20.h"
 
+ 
 // OneWire commands
 #define GETTEMP			0x44  // Tells device to take a temperature reading and put it on the scratchpad
 #define SKIPROM			0xCC  // Command to address all devices on the bus
